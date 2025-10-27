@@ -1,6 +1,6 @@
 ### 💾 ISO Compression Tips
 
-[](../image/compression.png)
+![](../assets/compression.png)
 In **Cubic**, you can choose the **ISO compression method** for your custom build:
 
 * **Prototype / Testing Builds:** Select the **top option** (fastest compression) to quickly generate ISOs for testing and iteration.

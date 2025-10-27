@@ -57,21 +57,3 @@ sudo cp my-logo.png /usr/share/plymouth/themes/<theme-name>/watermark/ubuntu-log
   * By customizing the Plymouth theme, the login screen background often reflects your branding.
 
 ---
-
-#### 4️⃣ Workflow for Cubic
-
-1. Enter the `custom-root` folder of your Cubic project.
-2. Navigate to:
-
-```text
-custom-root/usr/share/plymouth/themes/
-```
-
-3. Identify the theme used by default (`ubuntu-logo`, `breeze`, etc.).
-4. Replace the **watermark/logo image** in the theme folder.
-5. (Optional) Edit the theme’s `.plymouth` file to reference a different filename.
-6. Continue with other Cubic customizations (wallpapers, extensions, GRUB).
-
----
-
-

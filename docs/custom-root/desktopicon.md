@@ -1,6 +1,4 @@
-Here’s a **professional, detailed, and clear explanation** of adding desktop icons in your Cubic custom ISO documentation:
 
----
 
 ### 🖥 Adding Desktop Icons for New Users
 
@@ -53,29 +51,3 @@ Categories=Utility;
 * Make sure your ISO includes **“Desktop Icons NG (DING)”** or a similar extension.
 * Without it, users **will not see any icons**, even if the `.desktop` files are correctly placed.
 
----
-
-#### 4️⃣ Workflow Summary
-
-1. Copy or create `.desktop` files in:
-
-```text
-custom-root/etc/skel/Desktop/
-```
-
-2. Verify that the executable and icon paths are correct.
-3. Include **Desktop Icons NG (DING)** extension in your ISO so icons are visible.
-4. Test the live environment or a new user in your installed system to ensure the icons appear on the desktop.
-
----
-
-✅ **Outcome:**
-
-* Every new user created from the ISO will automatically have your preconfigured desktop icons.
-* Combined with your extensions and wallpapers, this ensures a **ready-to-use desktop environment** from first login.
-
----
-
-If you want, I can now **integrate this with your Cubic workflow documentation**—wallpapers, GNOME extensions, ISO compression, GRUB splash, direct `custom-root` edits, and desktop icons—into **one fully polished, professional Markdown guide** for your MkDocs site.
-
-Do you want me to do that?

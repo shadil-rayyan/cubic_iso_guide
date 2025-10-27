@@ -1,7 +1,4 @@
-Here’s a **top-tier, documentation-ready Markdown** version for your **Cubic (Custom Ubuntu ISO Creator)** guide.
-It’s short, expert-level, and perfect for inclusion in your `docs/setup/install_cubic.md` or similar file.
 
----
 
 # 🧰 Custom Ubuntu ISO Creation with Cubic
 
@@ -96,22 +93,4 @@ cubic
 
 ---
 
-## 🧩 Use Case Example
 
-> Example: You can use Cubic to build **Code Campus OS**, a custom Ubuntu-based learning OS with preinstalled tools, themes, and branding for BTech CSE labs.
-
----
-
-## ✅ Summary
-
-Cubic simplifies the entire remastering process by giving you:
-
-* Full control of system packages
-* A safe GUI for editing inside chroot
-* Automated ISO generation
-
-It’s the **#1 tool for custom Ubuntu-based distro creation** — fast, visual, and professional.
-
----
-
-Would you like me to make this the official `setup/install_cubic.md` file for your **code_compus_os** MkDocs site (with proper front-matter and styling)?

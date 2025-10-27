@@ -25,7 +25,8 @@ When building a custom Ubuntu-based ISO using **Cubic**, one of the legal and te
 #### 2️⃣ Legal Workaround: Removing Ubuntu Branding
 
 To avoid displaying Ubuntu branding during **first boot**, modify the GRUB configuration after exiting the Cubic virtual environment:
-[](../image/grub_cfg_splash.png)
+
+![](../assets/grub_cfg_splash.png)
 
 1. Open the GRUB configuration file in your `custom-root`:
 

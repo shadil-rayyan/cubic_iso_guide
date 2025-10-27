@@ -76,9 +76,10 @@ markdown_extensions:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/yourusername
-    - icon: fontawesome/brands/youtube
-      link: https://youtube.com/@yourchannel
+      link: https://github.com/shadil-rayyan
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/shadil-am/
+
   analytics:
     provider: google
     property: G-XXXXXXXXXX
@@ -101,6 +102,8 @@ nav:
     - GNOME Extensions: custom-root/extenstions.md
     - Plymouth Boot & Login Images: custom-root/plymouth.md
     - Wallpapers: custom-root/wallpaper.md
+  - Reference: reference.md
+
 
   
 
