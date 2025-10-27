@@ -1,0 +1,109 @@
+site_name: Cubic ISO Guide
+site_description: "A complete guide to building and customizing Ubuntu ISO files using Cubic"
+site_url: https://your-site-url.com
+repo_url: https://github.com/shadil-rayyan/cubic_iso_guide
+repo_name: yourusername/cubic_iso_guide
+edit_uri: edit/main/docs/
+site_author: Shadil Rayyan
+copyright: © 2025 Shadil Rayyan. All rights reserved.
+
+
+theme:
+  name: material
+  language: en
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.tracking
+    - content.action.edit
+    - content.action.view
+    - content.code.copy
+    - content.tabs.link
+    - search.suggest
+    - search.highlight
+    - search.share
+    - toc.integrate
+  palette:
+  - scheme: default
+    primary: blue
+    accent: deep orange
+    toggle:
+      icon: material/weather-night
+      name: Switch to dark mode
+  - scheme: slate
+    primary: blue
+    accent: deep orange
+    toggle:
+      icon: material/weather-sunny
+      name: Switch to light mode
+
+  icon:
+    repo: fontawesome/brands/github
+
+plugins:
+  - search
+  - awesome-pages
+  - minify:
+      minify_html: true
+  - git-revision-date-localized:
+      fallback_to_build_date: true
+  
+  - include-markdown
+  - redirects
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - tables
+  - admonition
+  - footnotes
+  - attr_list
+  - def_list
+  - md_in_html
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
+  - pymdownx.details
+  - pymdownx.tabbed
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.snippets
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/yourusername
+    - icon: fontawesome/brands/youtube
+      link: https://youtube.com/@yourchannel
+  analytics:
+    provider: google
+    property: G-XXXXXXXXXX
+
+nav:
+  - Home: index.md
+
+  - Chroot: chroot.md
+  - Linux Filesystem: linuxfilesystem.md
+  - Legal Considerations: legal_rule.md
+    
+  - Cubic:
+    - Installing Cubic: cubic/installing_tool.md
+    - Boot Image & GRUB: cubic/bootimage.md
+    - ISO Compression: cubic/iso_compression.md
+
+  - Custom Root:
+    - Overview: custom-root.md
+    - Desktop Icons: custom-root/desktopicon.md
+    - GNOME Extensions: custom-root/extenstions.md
+    - Plymouth Boot & Login Images: custom-root/plymouth.md
+    - Wallpapers: custom-root/wallpaper.md
+
+  
+
+  
+
+  
