@@ -1,8 +1,8 @@
 site_name: Cubic ISO Guide
 site_description: "A complete guide to building and customizing Ubuntu ISO files using Cubic"
-site_url: https://your-site-url.com
+site_url: https://shadil-rayyan.github.io/cubic_iso_guide/
 repo_url: https://github.com/shadil-rayyan/cubic_iso_guide
-repo_name: yourusername/cubic_iso_guide
+repo_name: shadil-rayyan/cubic_iso_guide
 edit_uri: edit/main/docs/
 site_author: Shadil Rayyan
 copyright: © 2025 Shadil Rayyan. All rights reserved.
